@@ -51,7 +51,8 @@ def print_order (custom_order):
         print(f"{custom_order.count(item)} order of {item} ")
     print()
     print("______________________")
-
+    print("")
+    
 if __name__ == "__main__":
     munue_printer()
     order(custom_order)
